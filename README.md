@@ -159,6 +159,8 @@ Add this right before the `exit 0` line:
 
 ```
 iptables-restore < /etc/iptables.ipv4.nat
+ifconfig wlan0 192.168.69.2
+service dhcpd restart
 ```
 
 ## Reboot
