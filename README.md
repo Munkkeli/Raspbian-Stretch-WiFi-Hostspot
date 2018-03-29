@@ -39,9 +39,8 @@ interface eth0
   static domain_name_servers=192.168.0.1 8.8.8.8
   static routers=10.94.65.254
 
-# Configure wlan0 for WiFi
-interface wlan0
-  static ip_address=192.168.4.1/24
+# Disable wlan0 so HOSTAPD can start
+denyinterfaces wlan0
 ```
 
 ---
