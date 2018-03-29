@@ -83,6 +83,7 @@ driver=nl80211
 ssid=Patkis-Air
 hw_mode=g
 channel=7
+ieee80211n=1
 wmm_enabled=1
 macaddr_acl=0
 auth_algs=1
