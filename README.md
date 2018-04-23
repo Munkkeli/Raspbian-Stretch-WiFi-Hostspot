@@ -1,5 +1,10 @@
 # Raspberry PI Wi-Fi Hotspot Configuration
 
+## Notice
+
+This quide is using the IP `192.168.69.2` for the WiFi hotspot, and the IP `10.94.65.230` for LAN.
+Please change these IPs to fit your network.
+
 ## Updating & Installing
 
 Update & Upgrade the PI
